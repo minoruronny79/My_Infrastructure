@@ -1,4 +1,3 @@
-/*
 ###Tenancy ronnymaeshiro
 variable "tenancy_ocid" {
   default = "ocid1.tenancy.oc1..aaaaaaaaykukhgsj7bxgeeeg76juq673o4oegtrtyexjvkd3poumufzi6z3a"
@@ -36,12 +35,15 @@ variable "private_key_path" {
 variable "region" {
   default = "us-sanjose-1"
 }
-*/
+
+
+
 
 ###############################################################
 ###############################################################
 ##tenancy rominoru
 
+/*
 variable "tenancy_ocid" {
   default = "ocid1.tenancy.oc1..aaaaaaaaqfog7v4spmrixyum46d767qe4q47lls6gxwofrn3arobnea4no2q"
 }
@@ -65,3 +67,5 @@ variable "private_key_path" {
 variable "region" {
   default = "us-sanjose-1"
 }
+
+*/
