@@ -43,6 +43,14 @@ resource "oci_identity_compartment" "sub_compartment_group2" {
 
 
 
+resource "oci_identity_compartment" "auditors_group_TestingStack" {
+  name           = "auditors_group_TestingStack"
+  description    = "This group will be focused in compartment testing"
+  compartment_id = var.compartment_id
+  
+
+}
+
 
 ##################################################
 ##Adding compute instance

@@ -41,7 +41,7 @@ variable "region" {
 
 ###############################################################
 ###############################################################
-##tenancy rominoru
+##tenancy rominoru-alternative tenancy
 
 /*
 variable "tenancy_ocid" {
